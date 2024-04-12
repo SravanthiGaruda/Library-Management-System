@@ -1,0 +1,77 @@
+SQL> CREATE TABLE EMPLOYEE (
+  2    Fname VARCHAR2(15) NOT NULL,
+  3    Minit VARCHAR2(1),
+  4    Lname VARCHAR2(15) NOT NULL,
+  5    Ssn CHAR(9) NOT NULL,
+  6    Bdate DATE,
+  7    Address VARCHAR2(40),
+  8    Sex CHAR,
+  9    Salary NUMBER(10,2),
+ 10    Super_ssn CHAR(9),
+ 11    Dno NUMBER(4),
+ 12    OverTimeCount NUMBER DEFAULT 0,
+ 13    PRIMARY KEY (SSN),
+ 14    FOREIGN KEY (Super_ssn) REFERENCES EMPLOYEE(Ssn)
+ 15  );
+
+Table created.
+
+SQL> CREATE TABLE DEPARTMENT (
+  2    Dname VARCHAR2(15) NOT NULL,
+  3    Dnumber NUMBER(4) NOT NULL,
+  4    Mgr_ssn CHAR(9) NOT NULL,
+  5    Mgr_start_date DATE,
+  6    PRIMARY KEY (Dnumber),
+  7    FOREIGN KEY (Mgr_ssn) REFERENCES EMPLOYEE(Ssn)
+  8  );
+
+Table created.
+
+SQL> CREATE TABLE DEPT_LOCATIONS (
+  2    Dnumber NUMBER(4) NOT NULL,
+  3    Dlocation VARCHAR2(15),
+  4    PRIMARY KEY (Dnumber, Dlocation),
+  5    FOREIGN KEY (Dnumber) REFERENCES DEPARTMENT(Dnumber)
+  6  );
+
+Table created.
+
+SQL> CREATE TABLE PROJECT (
+  2    Pname VARCHAR2(15) NOT NULL,
+  3    Pnumber NUMBER(4) NOT NULL,
+  4    Plocation VARCHAR2(15),
+  5    Dnum NUMBER(4) NOT NULL,
+  6    PRIMARY KEY (Pnumber),
+  7    FOREIGN KEY (Dnum) REFERENCES DEPARTMENT(Dnumber)
+  8  );
+
+Table created.
+
+SQL> CREATE TABLE WORKS_ON (
+  2    Essn CHAR(9) NOT NULL,
+  3    Pno NUMBER(4) NOT NULL,
+  4    Hours NUMBER(4,1),
+  5    PRIMARY KEY (Essn, Pno),
+  6    FOREIGN KEY (Essn) REFERENCES EMPLOYEE(Ssn),
+  7    FOREIGN KEY (Pno) REFERENCES PROJECT(Pnumber)
+  8  );
+
+Table created.
+
+SQL> CREATE TABLE DEPENDENT (
+  2    Essn CHAR(9) NOT NULL,
+  3    Dependent_name VARCHAR2(15),
+  4    Sex CHAR,
+  5    Bdate DATE,
+  6    Relationship VARCHAR2(8),
+  7    PRIMARY KEY (Essn, Dependent_name),
+  8    FOREIGN KEY (Essn) REFERENCES EMPLOYEE(Ssn)
+  9  );
+
+Table created.
+
+SQL> ALTER TABLE EMPLOYEE ADD FOREIGN KEY (Dno) REFERENCES DEPARTMENT(Dnumber);
+
+Table altered.
+
+SQL> spool off

@@ -1,0 +1,57 @@
+SQL> INSERT INTO EMPLOYEE (Fname, Lname, Ssn, Bdate, Salary, Dno,OverTimeCount) VALUES ('John', 'Doe', '1234567890', '1980-01-01', 100000, 1,0);
+INSERT INTO EMPLOYEE (Fname, Lname, Ssn, Bdate, Salary, Dno,OverTimeCount) VALUES ('John', 'Doe', '1234567890', '1980-01-01', 100000, 1,0)
+                                                                                                  *
+ERROR at line 1:
+ORA-12899: value too large for column "SXG1710"."EMPLOYEE"."SSN" (actual: 10, 
+maximum: 9) 
+
+
+SQL> INSERT INTO WORKS_ON (Essn, Pno, Hours) VALUES ('999999999', 1, 40);
+INSERT INTO WORKS_ON (Essn, Pno, Hours) VALUES ('999999999', 1, 40)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (SXG1710.SYS_C008772) violated - parent key not 
+found 
+
+
+SQL> INSERT INTO DEPARTMENT (Dname, Dnumber, Mgr_ssn, Mgr_start_date) VALUES ('New Department', 10, '999999999', '2023-10-08');
+INSERT INTO DEPARTMENT (Dname, Dnumber, Mgr_ssn, Mgr_start_date) VALUES ('New Department', 10, '999999999', '2023-10-08')
+                                                                                                            *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+SQL> DELETE FROM WORKS_ON WHERE Essn = '999999999' AND Pno = 1;
+
+1 rows deleted.
+
+SQL> INSERT INTO EMPLOYEE (Fname, Minit, Lname, Ssn, Bdate, Address, Sex, Salary, Super_ssn, Dno) VALUES ('James','E','Jordan','888665151','10-NOV-1927','450 Stone Houston TX','M',55000,null,null);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT (Dname,Dnumber,Mgr_ssn,Mgr_start_date) VALUES ('Administration',1,'888665151','01-JAN-1985');
+
+1 row created.
+
+SQL> INSERT INTO DEPT_LOCATIONS (Dnumber, Dlocation) VALUES (1,'Stafford');
+
+1 row created.
+
+SQL> INSERT INTO PROJECT (Pname, Pnumber, Plocation, Dnum )  VALUES ('EventManagement', 1,'Sacramento',1);
+
+1 row created.
+
+SQL> INSERT INTO DEPENDENT (Essn, Dependent_name, Sex, Bdate, Relationship)  VALUES ('888665151', 'Mary Alice','F','10-NOV-1924','Spouse');
+
+1 row created.
+
+SQL> UPDATE EMPLOYEE
+  2  SET
+  3      Super_ssn = '888665151',
+  4      Dno = 1
+  5  WHERE
+  6      Ssn = '888665151';
+
+1 rows updated.
+
+SQL> spool off

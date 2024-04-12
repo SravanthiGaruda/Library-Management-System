@@ -1,0 +1,6 @@
+SQL> start notify_trigger
+
+Trigger created.
+
+
+Trigger created.

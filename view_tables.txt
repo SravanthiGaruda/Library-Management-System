@@ -1,0 +1,1400 @@
+SQL> select * from users;
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+12345678  Sravanthi
+456 User Street
+Campus B
+sxg1710@mavs.uta.edu           9876543210        101
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456781 Srav
+567 User Street
+Campus A
+garudasravanthi9@gmail.com     9876543210        102
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456782 Garuda
+789 User Street
+Campus E
+garudasravanthi99@gmail.com    9876543210        103
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456783 SGaruda
+123 User Street
+Campus D
+sravanthi.garuda@uta.edu       9876543210        104
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456784 Dheeraj
+234 User Street
+Campus B
+dheerajgunda13@gmail.com       9876543210        105
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456785 Yagna
+135 User Street
+Campus F
+yagnanaidu1@gmail.com          9876543210        106
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456786 Naidu
+246 User Street
+Campus G
+naiduyagna731@gmail.com        9876543210        107
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456787 yxn
+357 User Street
+Campus A
+yxn5384@mavs.uta.edu           9876543210        108
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456788 priya
+459 User Street
+Campus C
+priya@gmail.com                9876543210        109
+
+
+USER_SSN  NAME
+--------- ------------------------------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+EMAIL                            PHONE_NO    CARD_ID
+------------------------------ ---------- ----------
+123456789 lakshmi
+467 User Street
+Campus D
+lakshmi@gmail.com              9876543210        110
+
+
+10 rows selected.
+
+SQL> select * from member;
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+       990
+bfilename(NULL)
+                        0 sxk7541@mavs.uta.edu           20-NOV-23 20-NOV-24
+
+       101
+bfilename('PHOTO_DIR', 'Sravanthi.jpg')
+jpg                     2 sxg1710@mavs.uta.edu           01-JAN-23 01-JAN-24
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+
+       102
+bfilename('PHOTO_DIR', 'Srav.jpg')
+jpg                     5 garudasravanthi9@gmail.com     01-FEB-23 01-FEB-24
+
+       103
+bfilename('PHOTO_DIR', 'Garuda.jpg')
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+jpg                     3 garudasravanthi99@gmail.com    01-MAR-23 01-MAR-24
+
+       104
+bfilename('PHOTO_DIR', 'SGaruda.jpg')
+jpg                     4 sravanthi.garuda@uta.edu       01-APR-23 01-APR-24
+
+       105
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+bfilename('PHOTO_DIR', 'Dheeraj.jpg')
+jpg                     2 dheerajgunda13@gmail.com       01-MAR-23 01-MAR-24
+
+       106
+bfilename('PHOTO_DIR', 'Yagna.jpg')
+jpg                     1 yagnanaidu1@gmail.com          01-APR-23 01-APR-24
+
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+       107
+bfilename('PHOTO_DIR', 'Naidu.jpg')
+jpg                     0 naiduyagna731@gmail.com        01-MAR-23 01-MAR-24
+
+       108
+bfilename('PHOTO_DIR', 'yxn.jpg')
+jpg                     4 yxn5384@mavs.uta.edu           01-APR-23 01-APR-24
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+
+       109
+bfilename('PHOTO_DIR', 'priya.jpg')
+jpg                     3 kaja@gmail.com                 01-MAR-23 01-MAR-24
+
+       110
+bfilename('PHOTO_DIR', 'lakshmi.jpg')
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+jpg                     4 lakshmi@gmail.com              01-APR-23 01-APR-24
+
+       777
+bfilename(NULL)
+                        0 khajal@gmail.com               01-JAN-23 18-NOV-24
+
+       198
+
+   CARD_ID
+----------
+PHOTO
+--------------------------------------------------------------------------------
+PHOT NO_OF_BOOKS_BORROWED EMAIL                          ISSUE_DAT EXPIRY_DA
+---- -------------------- ------------------------------ --------- ---------
+bfilename(NULL)
+                        1 knox@gmail.com                 15-DEC-22 15-DEC-23
+
+       199
+bfilename(NULL)
+                        0 aaron@gmail.com                15-DEC-22 18-NOV-24
+
+
+14 rows selected.
+
+SQL> select * from professor;
+
+PROF_SSN
+---------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+NAME                           EMAIL                            PHONE_NO
+------------------------------ ------------------------------ ----------
+   CARD_ID
+----------
+8267127
+123 Professor Street
+Campus B
+
+PROF_SSN
+---------
+HOME_ADD
+--------------------------------------------------------------------------------
+CAMPUS_ADD
+--------------------------------------------------------------------------------
+NAME                           EMAIL                            PHONE_NO
+------------------------------ ------------------------------ ----------
+   CARD_ID
+----------
+Sohna                          sxk7541@mavs.uta.edu           1234456890
+       990
+
+
+SQL> select * from book;
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+  12884929 yagna
+yagna
+yagna
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+yagna                                       1          100
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+   3288736 Spanish love decption
+Elena Armas
+Fake dating Office Rom Com
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fiction                                     1           25
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    777888 Before the Coffee gets Cold
+Toshikazu Kawaguchi
+It tells of a cafe in Tokyo that allows its customers to travel back in time
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fiction                                     1           20
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    352344 The God of Small Things
+Arundhati Roy
+The God of Small Things is a story about the childhood experiences of fraternal
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+twins Estha and Rahel, whose lives are deeply impacted by societal norms, family
+ dynamics, and tragic events in their hometown in Kerala, India.
+Fiction                                     1           20
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    363455 Midnight's Children
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Salman Rushdie
+Midnight's Children follows the life of Saleem Sinai, born at the exact moment w
+hen India gained independence. The novel intricately weaves together history, ma
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+gical realism, and political allegory.
+Historical Fiction                          1           15
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    374566 The White Tiger
+Aravind Adiga
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+The White Tiger is a novel that explores the life of Balram Halwai, a driver fro
+m a rural village who rises from poverty to become a successful entrepreneur in
+modern India, shedding light on social issues and class divide.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Literary Fiction                            1           18
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    112233 1984
+George Orwell
+A dystopian novel depicting a totalitarian regime and its impact on individual f
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+reedom and thought.
+Fiction                                     1           25
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    223344 Educated
+Tara Westover
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+The memoir of Tara Westover, recounting her journey from an isolated upbringing
+to education and self-discovery.
+Biography                                   1           40
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    334455 The Kite Runner
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Khaled Hosseini
+A story of friendship, betrayal, and redemption set against the backdrop of Afgh
+anistans tumultuous history.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fiction                                     1           35
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    445566 The Fault in Our Stars
+John Green
+A heart-wrenching novel about two teenagers battling cancer who find love and ho
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+pe amidst their struggles.
+Young Adult                                 1           20
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    556677 The Great Gatsby
+F. Scott Fitzgerald
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fitzgeralds masterpiece exploring themes of wealth, love, and the American Dream
+ in the 1920s.
+Classic Literature                          1           30
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    667788 Into the Wild
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Jon Krakauer
+A non-fiction book chronicling the journey of Christopher McCandless, who abando
+ned society to explore the wilderness.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Adventure                                   1           15
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    778899 The Hobbit
+J.R.R. Tolkien
+A fantasy novel following Bilbo Baggins quest to reclaim treasure guarded by the
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+ dragon Smaug.
+Fantasy                                     1           25
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    889900 The Girl on the Train
+Paula Hawkins
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+A psychological thriller revolving around a woman who becomes entangled in a mis
+sing persons investigation.
+Mystery                                     1           20
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    990011 The Goldfinch
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Donna Tartt
+Tartts Pulitzer Prize-winning novel following a young boys life after a tragic e
+vent in an art museum.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fiction                                     1           28
+19-AUG-23 19-NOV-23
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    110022 The Alchemist
+Paulo Coelho
+A philosophical novel about a young Andalusian shepherd in search of his persona
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+l legend.
+Fiction                                     1           22
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    121133 The Hunger Games
+Suzanne Collins
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+A dystopian adventure trilogy following Katniss Everdeen as she fights for survi
+val in a televised death match.
+Young Adult                                 1           30
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    132244 Crazy Rich Asians
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Kevin Kwan
+A satirical novel depicting the lives of wealthy Asian families and the conflict
+s that arise.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fiction                                     1           25
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    143355 Gone Girl
+Gillian Flynn
+A psychological thriller revolving around the mysterious disappearance of Amy Du
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+nne.
+Mystery                                     1           18
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    154466 Divergent
+Veronica Roth
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+The first book in a dystopian series where society is divided into factions base
+d on personality traits.
+Young Adult                                 1           27
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    165577 Eat, Pray, Love
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Elizabeth Gilbert
+Gilberts memoir chronicling her journey to self-discovery through travel, spirit
+uality, and love.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Biography                                   1           23
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    176688 To Kill a Mockingbird
+Harper Lee
+Harper Lees classic novel about racial injustice and moral growth in the America
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+n South.
+Fiction                                     1           20
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    187799 A Game of Thrones
+George R.R. Martin
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+The first book in the fantasy series "A Song of Ice and Fire," known for its pol
+itical intrigue and epic battles.
+Fantasy                                     1           32
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    198900 The Chronicles of Narnia
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+C.S. Lewis
+A classic series of fantasy novels following the adventures of children in the m
+agical land of Narnia.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Fantasy                                     1           28
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    209011 The Night Circus
+Erin Morgenstern
+A magical novel set in a mysterious circus that appears without warning and is o
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+nly open at night.
+Fantasy                                     1           20
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    220122 The Secret History
+Donna Tartt
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Tartts debut novel about a group of students at an elite college and the consequ
+ences of their actions.
+Fiction                                     1           25
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    231233 The Martian
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Andy Weir
+A science fiction novel about an astronaut stranded on Mars and his fight for su
+rvival.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Science Fiction                             1           22
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    987654 The Road
+Cormac McCarthy
+A post-apocalyptic novel following a father and son as they journey across a des
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+olate landscape.
+Fiction                                     1           25
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    456789 Pride and Prejudice
+Jane Austen
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+A classic romance novel exploring societal norms and the complexities of love.
+Classic Literature                          1           20
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    345678 The Handmaid's Tale
+Margaret Atwood
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+A dystopian novel portraying a society where womens rights have been severely re
+stricted.
+Fiction                                     1           30
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+    234567 Brave New World
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Aldous Huxley
+A speculative fiction depicting a futuristic world controlled by technology and
+social hierarchy.
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+Science Fiction                             1           28
+
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+    876543 The Picture of Dorian Gray
+Oscar Wilde
+A Gothic philosophical novel exploring the consequences of aestheticism and mora
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+l duplicity.
+Classic Literature                          1           22
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+    765432 Slaughterhouse-Five
+Kurt Vonnegut
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+An anti-war science fiction novel blending satire with a nonlinear narrative.
+Science Fiction                             1           27
+
+
+      ISBN TITLE
+---------- ---------------------------------------------
+AUTHOR
+---------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+SUBJECT_AREA                   STATUS_TO_LEND TOTAL_COPIES COPIES_ON_LOAN
+------------------------------ -------------- ------------ --------------
+BORROW_DA RETURN_DA    CARD_ID
+--------- --------- ----------
+
+
+33 rows selected.
+
+
+
+SQL> select * from librarian;
+
+  STAFF_ID NAME
+---------- ------------------------------
+ROLE
+----------------------------------------
+       201 Chevva
+Chief Librarian
+
+       202 Meghana
+departmental associate librarian
+
+       203 Vaish
+reference librarian
+
+
+  STAFF_ID NAME
+---------- ------------------------------
+ROLE
+----------------------------------------
+       204 Nikhil
+check-out staff
+
+       205 Darsh
+library assistant
+
+
+SQL>
