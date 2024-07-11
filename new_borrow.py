@@ -46,7 +46,7 @@ def new_borrow(connection, isbn, card_id, borrow_date):
     cursor.close()
 
 if __name__ == "__main__":
-    connection = cx_Oracle.connect(user='yxn5384', password='Yagnavarsha731', dsn='az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu')
+    connection = cx_Oracle.connect(user='', password='', dsn='')
 
     isbn = input("Enter ISBN: ")
     card_id = input("Enter Card ID: ")
