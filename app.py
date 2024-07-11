@@ -1,8 +1,8 @@
 import cx_Oracle
 
-username = "sxg1710"
-password = "SravanthiGaruda2"
-dsn = "az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu"
+username = ""
+password = ""
+dsn = ""
 
 # the command is used to create the tables
 
