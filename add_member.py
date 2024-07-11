@@ -17,7 +17,7 @@ def add_member(connection, card_id, no_of_books_borrowed, email, issue_date, exp
     
     print("Member with Card ID: {} has been successfully added.".format(card_id))
 
-connection = cx_Oracle.connect(user='yxn5384', password='Yagnavarsha731', dsn='az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu')
+connection = cx_Oracle.connect(user='', password='', dsn='')
 
 card_id = int(input("Enter Card ID: "))
 no_of_books_borrowed = int(input("Enter Number of Books Borrowed: "))
