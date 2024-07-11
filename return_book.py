@@ -65,5 +65,5 @@ if __name__ == "__main__":
     card_id = input("Enter Card ID: ")
     return_date = input("Enter Return Date (YYYY-MM-DD): ")
 
-    connection = cx_Oracle.connect(user='yxn5384', password='Yagnavarsha731', dsn='az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu')
+    connection = cx_Oracle.connect(user='', password='', dsn='')
     return_book(connection, isbn, card_id, return_date)
