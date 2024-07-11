@@ -11,7 +11,7 @@ def add_book(connection, isbn, title, author, description, subject_area, total_c
     cursor.close()
 
 if __name__ == "__main__":
-    connection = cx_Oracle.connect(user='yxn5384', password='Yagnavarsha731', dsn='az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu')
+    connection = cx_Oracle.connect(user='', password='', dsn='az6F72ldbp1.az.uta.edu:1523/pcse1p.data.uta.edu')
 
     isbn = input("Enter ISBN: ")
     title = input("Enter Title: ")
